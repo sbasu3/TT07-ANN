@@ -9,7 +9,7 @@
 # If you get stuck with this config, please open an issue or get in touch via the discord.
 
 # Here are some of the variables you may want to change:
-
+set ::env(ROUTING_CORES) 6
 # PL_TARGET_DENSITY - You can increase this if Global Placement fails with error GPL-0302.
 # Users have reported that values up to 0.8 worked well for them.
 set ::env(PL_TARGET_DENSITY) 0.6
